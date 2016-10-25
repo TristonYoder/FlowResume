@@ -1,3 +1,35 @@
 @charset "utf-8";
 /* CSS Document */
+:root {
+    /* Constants */
+    --primaryColor : rgba(255,255,255,1);
+    --accentColor : rgba(255,0,0,0.82);
+}
 
+body {
+    background-color: #545454;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 35px/1 "pt-sans", Helvetica, sans-serif;
+    color: var(--primaryColor);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-shadow: 3px 3px 19px rgba(0,0,0,0.80) ;
+}
+.title {
+    text-align: left;
+    border: 3px solid yellow;
+    width: 50%;
+    height: auto;
+}
+
+.lastName {
+    font-size: 100px;
+    color: var(--accentColor);
+}
+
+.firstName {
+    font-size: 100px;
+}

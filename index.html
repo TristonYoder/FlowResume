@@ -1,10 +1,40 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Triston Yoder</title>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Triston Yoder</title>
+		<link href="CSS.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="functions.js"></script>
 
-<body>
-</body>
+	</head>
+	<body>
+        
+		<!--Title-->
+        <div>
+			<table class=title>
+				<tr class=title>
+					<td class=title>
+						<div class="firstName">
+                             <span id="firstName">
+							<script>
+								document.write(resume.general.firstName);
+							</script>
+                            </span>
+						</div>
+					</td>
+				</tr>
+				<tr class=title>
+					<td class=title>
+						<div class="lastName">
+                             <span id="lastName">
+							<script>
+								document.write(resume.general.lastName);
+							</script>
+                            </span>
+						</div>
+					</td>
+				</tr>
+			</table>
+        </div>        
+	</body>
 </html>
