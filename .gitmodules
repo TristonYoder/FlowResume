@@ -1,0 +1,3 @@
+[submodule "jquery-bigtext"]
+	path = jquery-bigtext
+	url = https://github.com/DanielHoffmann/jquery-bigtext
