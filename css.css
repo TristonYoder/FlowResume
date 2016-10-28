@@ -3,11 +3,12 @@
 :root {
     /* Constants */
     --primaryColor : rgba(255,255,255,1);
-    --accentColor : rgba(255,0,0,0.82);
+    --accentColor : rgba(255,0,0,.9);
+    --backgroundColor : rgba(117, 117, 117, 1);
 }
 
 body {
-    background-color: #545454;
+    background-color: var(--backgroundColor);
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -20,8 +21,7 @@ body {
 }
 .title {
     text-align: left;
-    border: 3px solid yellow;
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 
@@ -31,5 +31,5 @@ body {
 }
 
 .firstName {
-    font-size: 100px;
+     color: var(--primaryColor);
 }
